@@ -1,7 +1,7 @@
 body
     {
         background: #fff;
-        font-family: Merriweather, sans-serif;
+        font-family: Roboto, sans-serif;
         font-weight: 300;
         position: relative;
         width: 100%;
@@ -210,62 +210,42 @@ img
     }
 /* end indication */
 
-/* start feature */
-#feature
+/* start production */
+#production0,
+#production2,
+#production4
     {
         background: #f8f8f8;
-        padding-top: 80px;
+        padding-top: 60px;
         padding-bottom: 80px;
     }
-#feature p
-    {
-        padding-top: 10px;
-    }
-#feature span
-    {
-        float: left;
-    }
-#feature .fa
-    {
-        background: #399;
-        border-radius: 50%;
-        color: #fff;
-        display: inline-block;
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        text-align: center;
-        margin-right: 20px;
-    }
-/* end feature */
-
-/* start feature1 */
-#feature1
+#production1,
+#production3,
+#production5
     {
         padding-top: 60px;
         padding-bottom: 60px;
-    }
-#feature1 p
+	}
+#production0 p,
+#production1 p,
+#production2 p,
+#production3 p,
+#production4 p,
+#production5 p
     {
         padding-top: 10px;
     }
-#feature1 span
+#production0 span,
+#production1 span,
+#production2 span,
+#production3 span,
+#production4 span,
+#production5 span
     {
         float: left;
     }
-#feature1 .fa
-    {
-        background: #399;
-        border-radius: 50%;
-        color: #fff;
-        display: inline-block;
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        text-align: center;
-        margin-right: 20px;
-    }
-/* end feature1 */
+/* end production */
+
 
 /* start price */
 #price
@@ -414,10 +394,10 @@ footer
     .price {
         margin-bottom: 20px;
     }
-    #feature img, #download img {
+    #production img, #download img {
         margin-top: 30px;
     }
-    #feature1 img {
+    #production1 img {
         margin-bottom: 30px;
     }
 }
@@ -426,7 +406,7 @@ footer
         height: auto;
         line-height: 2em;
     }
-    #feature, #price, #download {
+    #production, #price, #download {
         padding-top: 20px;
         padding-bottom: 40px;
     }
