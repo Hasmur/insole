@@ -217,7 +217,7 @@ img
     {
         background: #f8f8f8;
         padding-top: 60px;
-        padding-bottom: 80px;
+        padding-bottom: 60px;
     }
 #production1,
 #production3,
@@ -252,8 +252,8 @@ img
     {
         background: #f8f8f8;
         text-align: center;
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 #price h2
     {
@@ -312,8 +312,8 @@ img
 /* start download */
 #download
     {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 #download h2
     {
